@@ -24,7 +24,6 @@
   gap: 0.5em;
   padding: 0.5em 1em;
   justify-content: space-between;
-  user-select: none;
 
   &:focus {
     border: 1px solid $blue-light;

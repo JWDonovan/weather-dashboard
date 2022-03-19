@@ -16,7 +16,6 @@
   cursor: pointer;
   display: flex;
   gap: 0.5em;
-  user-select: none;
 }
 
 #temperature-toggle {
