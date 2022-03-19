@@ -3,7 +3,7 @@
     <SidePanelHeader />
     <SidePanelDayInfo />
     <SidePanelTemp />
-    <WeatherImage iconId="10d" />
+    <WeatherImage icon-id="10d" />
   </section>
 </template>
 

@@ -2,7 +2,7 @@
   <img
     class="weather-icon"
     alt="current weather icon"
-    v-bind:src="'http://openweathermap.org/img/wn/' + iconId + '@4x.png'"
+    :src="'https://openweathermap.org/img/wn/' + iconId + '@4x.png'"
   />
 </template>
 

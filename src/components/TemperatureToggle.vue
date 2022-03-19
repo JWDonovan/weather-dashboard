@@ -1,7 +1,7 @@
 <template>
   <label class="temperature-toggle" for="temperature-toggle">
     <span>C°</span>
-    <input type="checkbox" id="temperature-toggle" />
+    <input type="checkbox" id="temperature-toggle" checked />
     <div class="toggle-button" type="button"></div>
     <span>F°</span>
   </label>
