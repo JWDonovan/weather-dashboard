@@ -1,6 +1,22 @@
 <template>
-  <section class="main-panel"></section>
+  <section class="main-panel">
+    <UpcomingHours />
+    <OpenMap />
+  </section>
 </template>
+
+<script lang="ts">
+import { defineComponent } from "vue";
+import UpcomingHours from "./UpcomingHours.vue";
+import OpenMap from "./OpenMap.vue";
+
+export default defineComponent({
+  components: {
+    UpcomingHours,
+    OpenMap,
+  },
+});
+</script>
 
 <style lang="scss" scoped>
 @use "@/styles/vars" as *;
